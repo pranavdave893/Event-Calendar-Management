@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Login Page</title>
+</head>
+<body>
+<form action="LoginActivity.jsp" method="post">
+<input type="hidden" name="table" value="User_Registration">
+<input type="hidden" name="method" value="find">
+<table>
+	<tr>
+		<td>Enter Username: </td>
+		<td><input type="text" name="username"></td>
+	</tr>
+	<tr>
+		<td>Enter Password: </td>
+		<td><input type="password" name="password"></td>
+	</tr>
+	<tr>
+		<td><input type="reset" value="Reset"></td>
+		<td><input type="submit" value="Login"></td>
+	</tr>
+</table>
+	<input type="hidden" name="fields" value="UserID">
+	<input type="hidden" name="where" value="username">
+	<input type="hidden" name="where" value="password">
+</form>
+<br><a href="Register.html">New User, Register Here</a>
+</body>
+</html>

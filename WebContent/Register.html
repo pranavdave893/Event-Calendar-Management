@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Page</title>
+</head>
+<body>
+<form action="Activity.jsp" method="post">
+<input type="hidden" name="table" value="User_Registration">
+<input type="hidden" name="method" value="add">
+<table>
+	<tr>
+		<td>Enter Username: </td>
+		<td><input type="text" name="username"></td>
+	</tr>
+	<tr>
+		<td>Enter Password: </td>
+		<td><input type="password" name="password"></td>
+	</tr>
+	<tr>
+		<td>Mail ID: </td>
+		<td><input type="text" name="email"></td>
+	</tr>
+	<tr>
+		<td>Contact No: </td>
+		<td><input type="number" name="cno"></td>
+	</tr>
+	<tr>
+		<td>Address: </td>
+		<td><input type="text" name="address"></td>
+	</tr>
+	<tr>
+		<td>Age: </td>
+		<td><input type="number" name="age"></td>
+	</tr>
+	<tr>
+		<td><input type="reset" value="Reset"></td>
+		<td><input type="submit" value="Register"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
